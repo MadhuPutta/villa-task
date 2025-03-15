@@ -1,0 +1,762 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.list {
+    color: orange;
+    font-size: larger;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list1 {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: orangered;
+
+}
+
+.spa1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.spa {
+    color: rgb(32, 9, 240);
+}
+
+.nav1 {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation2 {
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 2;
+}
+
+h2 {
+    padding-left: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    padding-right: 100px;
+}
+
+.spa {
+    border-left: 4px blue;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    padding-left: 60px;
+}
+
+.social {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Best {
+    width: 400px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 2px;
+    overflow: auto;
+}
+
+.child2 {
+    width: 200px;
+    background-color: rgb(216, 252, 252);
+    text-align: center;
+    border-radius: 22px;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+}
+
+.child2:hover {
+    scale: 1.05;
+    z-index: 2;
+    box-shadow: 2px 2px #979793;
+}
+
+.templ {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-bg.jpg");
+}
+
+.vi {
+    position: relative;
+    margin-bottom: 10%;
+    margin-top: 40px;
+}
+
+.view {
+    display: flex;
+    color: rgb(129, 233, 209);
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.frame {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-5%, -5%);
+}
+
+
+.chld1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(240, 144, 48);
+}
+
+.pro {
+    margin-top: 50px;
+
+}
+
+.pro1,
+.pro3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loop {
+    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dollar {
+    color: rgb(255, 0, 0);
+}
+
+
+
+.parent1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+}
+
+.dollar {
+    display: inline-block;
+    padding-left: 173px;
+
+}
+
+.luxury {
+    align-self: flex-start;
+}
+
+.new1 {
+    display: flex;
+}
+
+.new2 {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 355px;
+    height: 460px;
+    background-color: whitesmoke;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 355px;
+    height: 460px;
+    background-color: whitesmoke;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.image1:hover {
+    scale: 1.06;
+    box-shadow: 2px 3px rgba(236, 185, 236, 0.929);
+
+}
+
+.image2:hover {
+    scale: 1.06;
+    box-shadow: 2px 3px rgba(236, 185, 236, 0.929);
+
+}
+
+.image3:hover {
+    scale: 1.06;
+    box-shadow: 2px 3px rgba(236, 185, 236, 0.929);
+
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.para {
+    display: flex;
+    flex-direction: row;
+}
+
+.miami {
+    display: flex;
+    justify-content: center;
+    color: rgb(247, 71, 71);
+    text-decoration: none;
+}
+
+.area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.buton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buton1 {
+    width: 160px;
+    height: 35px;
+    border: 0px;
+    background: #388e3c;
+    /* Dark green */
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.buton1:hover {
+    scale: 1.05;
+    box-shadow: 2px 2px hwb(60 15% 84%);
+
+}
+
+
+.vi1 {
+    position: relative;
+    margin-bottom: 10%;
+    margin-top: 40px;
+}
+
+.templ1 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-image: url("https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/contact-bg.jpg");
+}
+
+.view1 {
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.cont {
+    color: rgb(247, 71, 71);
+    text-decoration: none;
+}
+
+.frame1 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.map {
+    border-radius: 10px;
+    position: absolute;
+    left: 4%;
+    top: 50%;
+}
+
+.details {
+    width: 340px;
+    height: 500px;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}
+
+.name {
+    margin: 6px;
+}
+
+.inp {
+    margin: 6px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.send {
+    margin: 6px;
+    width: 150px;
+    height: 40px;
+    background-color: rgba(243, 243, 137, 0.872);
+    border-radius: 10px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.num,
+.email {
+    margin-top: 8%;
+    width: 280px;
+    height: 85px;
+    border-radius: 18px;
+    background-color: whitesmoke;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.business {
+    font-size: larger;
+    font-family: serif;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+marquee {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hurt {
+    background-color: aliceblue;
+    height: 60px;
+    margin-right: 0.4px;
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* Default styles (for large screens) */
+
+/* Extra Large Screens (Desktops & Wide Screens) */
+@media screen and (min-width: 1400px) {
+    .menu {
+        gap: 40px;
+        padding-right: 150px;
+    }
+
+    .info {
+        padding-left: 80px;
+    }
+
+    .social {
+        padding-right: 150px;
+    }
+
+    .Best {
+        width: 500px;
+        height: 350px;
+    }
+
+    .box {
+        width: 350px;
+        height: 90px;
+    }
+}
+
+/* Large Screens (Laptops & Standard Desktops) */
+@media screen and (max-width: 1399px) {
+    .menu {
+        gap: 30px;
+        padding-right: 100px;
+    }
+
+    .info {
+        padding-left: 50px;
+    }
+
+    .social {
+        padding-right: 100px;
+    }
+
+    .child {
+        flex-wrap: wrap;
+    }
+
+    .Best {
+        width: 400px;
+        height: 300px;
+    }
+
+    .box {
+        width: 320px;
+        height: 85px;
+    }
+}
+
+/* Medium Screens (Tablets & Small Laptops) */
+@media screen and (max-width: 1024px) {
+
+    .nav1,
+    .nav2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h2 {
+        padding-left: 30px;
+    }
+
+    .menu {
+        gap: 20px;
+        padding-right: 50px;
+    }
+
+    .info {
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+
+    .social {
+        padding-right: 50px;
+    }
+
+    .child {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Best {
+        width: 90%;
+        height: auto;
+    }
+
+    .child2 {
+        width: 250px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container,
+    .container1 {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .image1,
+    .image2,
+    .image3 {
+        width: 320px;
+        height: auto;
+    }
+
+    .templ,
+    .templ1 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .view {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .frame,
+    .frame1 {
+        position: relative;
+        left: auto;
+        top: auto;
+        text-align: center;
+    }
+
+    .details {
+        right: 5%;
+        width: 300px;
+    }
+}
+
+/* Small Screens (Mobile Devices) */
+@media screen and (max-width: 767px) {
+
+    .nav1,
+    .nav2 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    h2 {
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+        align-items: center;
+    }
+
+    .info {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .social {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+    }
+
+    .child {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Best {
+        width: 95%;
+        height: auto;
+    }
+
+    .child2 {
+        width: 90%;
+    }
+
+    .templ,
+    .templ1 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .view {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .frame,
+    .frame1 {
+        position: relative;
+        left: auto;
+        top: auto;
+        text-align: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .container,
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .image1,
+    .image2,
+    .image3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .buton {
+        flex-direction: column;
+    }
+
+    .map {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .details {
+        width: 90%;
+        right: auto;
+        left: auto;
+        position: relative;
+        margin: 20px auto;
+    }
+
+    .number {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .num,
+    .email {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+/* Extra Small Screens (Very Small Mobile Phones) */
+@media screen and (max-width: 480px) {
+
+    .nav1,
+    .nav2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        padding-left: 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .info {
+        flex-direction: column;
+        text-align: center
+    }
+}
